@@ -15,11 +15,13 @@ the police department’s database."
 My first task? Retrieve the crime scene report from the database.
 Step 1: Uncovering the Crime Scene Details
 Using the query below, I retrieved the crime scene report:
+
 SELECT *
 FROM crime_scene_report
 WHERE date = 20180115
 AND city = 'SQL City'
 AND type = 'murder'; 
+
 The report revealed crucial details: two witnesses—one living on "Northwestern Dr" and the 
 other, Annabel, residing somewhere on "Franklin Ave."
 date type description city
